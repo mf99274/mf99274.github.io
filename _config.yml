@@ -1,5 +1,7 @@
 name: PhD Candidate
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
 #layout: sidebar
 #style: light
 
