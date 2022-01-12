@@ -7,9 +7,28 @@ contact: passive
 description: 
 ---
 <!-- <div class="jumbotron"> -->
+html, body, * {
+    padding:0;
+    margin:0;
+}
+#contain {
+    background-color:#3b3b40;
+    height:100%;/* no need  */
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#img {
+    padding:0;
+    margin:0;
+    width:49%;
+    min-width:350px;   
+    vertical-align:bottom;
+}
+
 <div class="row marketing">
-    <div class="col-sm-4">
-    <img  alt="Matheus Fagundes" src="img/selfie1.png">
+    <div id="contain" class="col-sm-4">
+    <img  alt="Matheus Fagundes" src="img/selfie1.png" id="img" >
     </div>
     <div itemscope itemtype="http://data-vocabulary.org/Person" class="col-sm-8">
         <p class="lead">Hi, I'm <span itemprop="name">Matheus Fagundes</span> and I'm a PhD candidate working for <a href="https://www.cobia.engr.uga.edu/">COBIA lab</a> at <span itemprop="affiliation">the <a href="https://engineering.uga.edu/">University of Georgia</a></span>. </p>
