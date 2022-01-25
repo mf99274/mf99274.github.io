@@ -1,80 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 <!-- links to icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Matheus Fagundes</title> <!-- Change the name of the tab -->
-<style>
-body {margin: 0;}
 
-/* Navigation bar commands */ 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(240, 240, 240);
-  /* fixing navigation bar 
-  position: fixed;
-  top: 0;
-  width: 100%;*/ /* this command does not work when dropdown is on */
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: rgb(60, 60, 60);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active), .dropdown:hover .dropbtn {
-  background-color: rgba(0, 0, 255, 0.2);
-}
-
-.active {
-  background-color: rgba(0, 0, 255, 0.2);
-}
-
-/* Adding dropdown function (there is some commands up there too */
-li.dropdown {
-  display: inline-block;
- }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-</style>
 </head>
 <body>
-
+  
+<!-- Header! -->
+<div class="header">
+  <h1>Matheus Fagundes</h1>
+</div>
+  
     <!-- navigation bar commands -->
 <ul>
   <li><a href="#home">Home</a></li>
@@ -87,10 +29,42 @@ li.dropdown {
           <a href="#">Abalone population</a>
       </div>
   </li>
-  <li><a href="#contact">CV</a></li>
-  <li style="float:right"><a href="#about">Contact</a></li>
 </ul>
     <!-- navigation bar end commands -->
 
+
+<!-- Main page-->
+<div class="row">
+  <div class="column">
+    <img src="img/selfie1.png" alt="Me" style="width:100%">
+  </div>
+  
+  <div class="column">
+	<h2>About me</h2>
+    <p>Hi, I'm <span itemprop="name">Matheus Fagundes</span> and I'm a PhD candidate working under the supervision of <a href="https://www.cobia.engr.uga.edu/">Dr. Woodson</a> at <span itemprop="affiliation">the <a href="https://engineering.uga.edu/">University of Georgia</a></span>.</p>
+	<p><font face="Avenir">My main project during my PhD is to couple kelp forest module in the water column of the Regional Ocean Modeling System (ROMS) 
+		  and understand the impact in the population dynamics and oxygen dynamics.</font></p>
+  
+	<p><font face="Avenir">My interests range from idealized modeling to Global Climate modeling and more recently ML/AI.</p>
+
+    <h2>Contact Me</h2>
+    <a href="https://www.linkedin.com/in/matheus-fagundes-05429a213/">
+      <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+	</a>
+
+    <a href="https://github.com/mf99274">
+      <i class="fa fa-github" style="font-size:36px"></i>
+    </a>
+
+    <a href="https://scholar.google.com/citations?user=ipWgJPwAAAAJ&hl=en">
+     <i class="material-icons" style="font-size:36px">school</i>
+    </a> 
+
+  </div>
+  
+ 
+</div>
+<!-- Main page command ends -->
+  
 </body>
 </html>
