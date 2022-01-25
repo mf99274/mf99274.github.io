@@ -1,27 +1,92 @@
----
-layout: default
-title: PhD Candidate Matheus Fagundes
-cv: passive
-notes: passive
-contact: passive
-description: 
----
-<!-- <div class="jumbotron"> -->
-<table height="400" border="0" cellpadding="2" cellspacing="2" width="900">
-      <tbody>
-        <tr>
-          <td><img alt="" src="img/selfie1.png" border="1"
-              height="400" width="409" align="top"></td>
-          <td valign="middle"><big><font face="Avenir">Hi, I'm <span itemprop="name">Matheus Fagundes</span> and I'm a PhD candidate working under the supervision of <a href="https://www.cobia.engr.uga.edu/">Dr. Woodson</a> at <span itemprop="affiliation">the <a href="https://engineering.uga.edu/">University of Georgia</a></span>.</font></big><br>
-		  <p><font face="Avenir">My main project during my PhD is to couple kelp forest module in the water column of the Regional Ocean Modeling System (ROMS) 
-		  and understand the impact in the population dynamics and oxygen dynamics.</font></p> 
-		  <p><font face="Avenir">My interests range from idealized modeling to Global Climate modeling and more recently ML/AI.</font></p>
-            <br>
-          </td>
-        </tr>
-      </tbody> 
-    </table>      
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matheus Fagundes</title> <!-- Change the name of the tab -->
+<style>
+body {margin: 0;}
 
-<!-- </div> -->
+/* Navigation bar commands */ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(240, 240, 240);
+  /* fixing navigation bar 
+  position: fixed;
+  top: 0;
+  width: 100%;*/ /* this command does not work when dropdown is on */
+}
 
-<!-- itemscope itemtype="http://data-vocabulary.org/Person" class="col-sm-8"> -->
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(60, 60, 60);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.active {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+/* Adding dropdown function (there is some commands up there too */
+li.dropdown {
+  display: inline-block;
+ }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+
+    <!-- navigation bar commands -->
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Projects</a>
+      <div class="dropdown-content"> 
+          <a href="#">Amazon river</a>
+          <a href="#">GCM + DO dynamics</a>
+          <a href="#">kelp forest</a>
+          <a href="#">Abalone population</a>
+      </div>
+  </li>
+  <li><a href="#contact">CV</a></li>
+  <li style="float:right"><a href="#about">Contact</a></li>
+</ul>
+    <!-- navigation bar end commands -->
+
+</body>
+</html>
