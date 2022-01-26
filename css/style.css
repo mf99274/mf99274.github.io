@@ -98,13 +98,13 @@ li.dropdown {
   }
 }
 
-/* Beginning of gallery commands to upload my figures */
+/* --------------------- Beginning of gallery commands to upload my figures -------------------------------- */
 div.gallery {
   border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: 20px solid #777;
+  border: 1px solid #777;
 }
 
 div.gallery img {
